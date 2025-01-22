@@ -28,7 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 a, a:visited, a:hover {
@@ -145,5 +145,9 @@ i, em {
 @media screen and (max-width: 375px) {
     .container {
         max-width: 100%;
+        padding: 24px;
+    }
+    .femprojects .projectgrid {
+        display: block;
     }
 }
